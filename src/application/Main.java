@@ -29,21 +29,21 @@ public class Main {
                     sc.nextLine(); // Limpar o buffer do next()
 
                     System.out.println("Digite o nome do cliente: ");
-                    cliente.Nome = sc.nextLine();
+                    cliente.nome = sc.nextLine();
 
                     System.out.println("Digite o endereço do cliente: ");
-                    cliente.Endereço = sc.nextLine();
+                    cliente.endereço = sc.nextLine();
 
                     System.out.println("Digite o telefone do cliente: ");
-                    cliente.Telefone = sc.nextLong();
+                    cliente.telefone = sc.nextLong();
 
                     System.out.println("Digite a dívida do cliente: ");
-                    cliente.Divida = sc.nextFloat();
+                    cliente.divida = sc.nextFloat();
 
                     sc.nextLine(); // Limpando o Buffer
 
                     System.out.println("Digite a data de cadastro do cliente: ");
-                    cliente.Cadastro = sc.nextLine();
+                    cliente.cadastro = sc.nextLine();
 
                     break;
 
