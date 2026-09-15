@@ -10,7 +10,7 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Cliente cliente = new Cliente();  // (Instanciando o OBJETO - CLIENTE)
+        Cliente cliente = new Cliente();  // ((Instanciando o OBJETO - CLIENTE))
 
         String opcao;
 
